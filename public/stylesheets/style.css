@@ -1,0 +1,129 @@
+@import url('./base.css');
+@import url('./upload.css');
+/*头部*/
+
+.header{
+  height: 55px;
+  background-color: #55666F;
+  border: 2px solid #dedede;
+  border-width: 2px 2px 0;
+  position: relative;
+}
+.logo{
+  position: absolute;
+  left:17%;
+  top: -4px;
+  font-size: 40px;
+  color: #fff;
+}
+.nav{
+  width: 700px;
+  text-align: left;
+  margin: 19px auto 0;
+}
+.nav li{
+  float: left;
+  list-style: none;
+  color:#dedede;
+  margin-right: 15px;
+}
+.ui-list{
+  width: 900px;
+  margin: 20px auto;
+}
+.ui-tools{
+  margin-bottom: 20px;
+}
+.ui-tools ul{
+  height: 90px;
+  background-color: #fff;
+  border-top:5px solid;
+  border-radius: 6px;
+  padding:16px 30px 0;
+}
+.ui-green ul{
+  border-color: #239F85;
+}
+.ui-orange ul{
+  border-color:#F0C330;
+}
+.ui-red ul{
+  border-color: #FC6C86;
+}
+.ui-me ul{
+  background-color: #3A99D8;
+  border-top:none;
+}
+.ui-tools li{
+  float: left;
+  height: 70px;
+}
+.ui-avator{
+  width: 70px;
+  background-color: #dedede;
+  border: 2px solid #fff;
+  border-radius: 40px;
+}
+.ui-info{
+  padding: 15px 0 0 20px;
+}
+.ui-info .ui-name{
+  font-size: 16px;
+  color: #3A99D8;
+  line-height: 24px;
+}
+.ui-me .ui-name{
+  color: #fff;
+}
+.ui-info .ui-plus{
+  color: #d3d3d3;
+}
+.ui-me .ui-info .ui-plus{
+  color: #93C6E6;
+}
+.ui-tools li:nth-of-type(n+3){
+  float: right;
+  color: #fff;
+  padding-top: 26px;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.ui-tools li.ui-arrow{
+  text-indent: -9999px;
+  border: 2px solid #dedede;
+  border-width: 2px 0 0 2px;
+  height: 7px;
+  width: 7px;
+  padding:0;
+  margin: 28px 0 0;
+  transform: rotate(-135deg);
+}
+.ui-unfold{
+  display: none;
+  min-height: 100px;
+  margin-top: -4px;
+  border-radius: 0 0 5px 5px;
+}
+.ui-orange.active ul,.ui-orange.active .ui-unfold{
+  background-color: #F8F4E4;
+}
+.active .ui-unfold{
+  display: block;
+}
+.ui-tools.active li.ui-arrow{
+  transform:rotate(45deg);
+  margin-top: 34px;
+}
+.ui-head{
+  padding:20px;
+}
+.ui-content{
+  margin: 0 20px 20px;
+  padding:20px 30px;
+  background-color: #fff;
+}
+.ui-item{
+  padding:10px;
+}
+
+
